@@ -1,0 +1,17 @@
+#carouselId{
+    max-height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jumbotron.text-center{
+    padding: 150px;
+}
+
+img{
+    height: 300px;
+}
+.icon{
+    max-width: 100px;
+    max-height: 80px;
+}
