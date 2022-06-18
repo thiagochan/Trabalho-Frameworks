@@ -43,3 +43,8 @@ img{
         animation: changeColor 5s infinite;
       }
     }
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
