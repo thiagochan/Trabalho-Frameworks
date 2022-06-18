@@ -9,9 +9,37 @@
 }
 
 img{
-    height: 300px;
+  height: 400px;
 }
+
+.carousel-img{
+  width: 700px;
+}
+
 .icon{
     max-width: 100px;
     max-height: 80px;
 }
+.jumbotron-heading {
+    background: linear-gradient(#1095c1 0 0) no-repeat calc(200% - var(--p, 0%))
+      100% / 200% var(--p, 0.08em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  .jumbotron-heading:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 792px) {
+    @-webkit-keyframes changeColor {
+      0%   {background-color: rgb(204, 138, 138);}
+      50%  {background-color: rgb(120, 167, 123);}
+  
+    }
+        body{
+        background-color: rgb(228, 142, 142);
+        animation: changeColor 5s infinite;
+      }
+    }
